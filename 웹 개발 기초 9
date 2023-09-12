@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>상대 단위에 대해 알아보자.</h2>
+
+    <p class="px">절대단위 - px</p>
+    <p class="per">상대단위 - %</p>
+    <p class="em">상대단위 - em</p>
+    <p class="rem">상대단위 - rem</p>
+    <p class="vw">상대단위 - vw</p>
+    <p class="vh">상대단위 - vh</p>
+
+</body>
+
+</html>
+  -------------------------------------------------------------
+  .px {
+    font-size: 25px;
+    color: red;
+}
+
+.per {
+    font-size: 70%;
+    color: rgb(5, 167, 207);
+}
+
+.em {
+    font-size: 1em;
+    color: rgba(5, 167, 207, 0.5);
+}
+
+.rem {
+    font-size: 1rem;
+    color: #333333;
+}
+
+.vw {
+    font-size: 1vw;
+    color: #33333350;
+}
+
+.vh {
+    font-size: 1vh;
+}
