@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- .fontFamily -->
+    <div class="fontFamily">
+        잘생긴 <span>Yeontaek</span>
+    </div>
+
+    <div class="textAlignLeft">왼쪽정렬</div>
+    <div class="textAlignCanter">가운데정렬</div>
+    <div class="textAlignRight">오른쪽 정렬</div>
+
+</body>
+
+</html>
+  --------------------------------------------------------------
+  * {
+    font-family: "Georgia", "함초롬바탕";
+}
+
+.fontFamily {
+
+    color: coral;
+    font-weight: bold;
+}
+
+.fontFamily span {
+    color: cornflowerblue;
+    font-size: 2em;
+    font-stretch: italic;
+}
+
+.textAlignLeft {
+    text-align: left;
+    height: 100px;
+    line-height: 10px;
+}
+
+.textAlignCanter {
+    text-align: center;
+    height: 100px;
+    line-height: 10px;
+}
+
+.textAlignRight {
+    text-align: right;
+    height: 100px;
+    line-height: 10px;
+}
