@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <span>오늘은 목요일</span>
+    <!-- .box1>.a+.b+.c -->
+    <div class="box1">
+        <div class="a">aa</div>
+        <div class="b">bb</div>
+        <div class="c">cc</div>
+    </div>
+
+    <ul>
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+    </ul>
+
+</body>
+
+</html>
+  -----------------------------------------------
+  div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box1 {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #e3ffcd;
+}
+
+.box1 div {
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+.a {
+    position: static;
+    /* static == 기본값(고정된) */
+    left: 100px;
+    background-color: #0000d888;
+    padding: 20px;
+    box-sizing: border-box;
+    /*box-sizing: content-box;  ==  기본 박스로 설정*/
+}
+
+.b {
+    position: absolute;
+    /* absolute == 절대적인 */
+    left: 100px;
+    top: 50px;
+    background-color: #0000d855;
+    display: inline;
+}
+
+.c {
+    position: relative;
+    /* relative == 상대적인*/
+    left: 100px;
+    background-color: #0000d822;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+}
+
+.c:hover {
+    background-color: red;
+}
