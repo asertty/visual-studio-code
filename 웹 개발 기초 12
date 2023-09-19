@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- .pos>.a+.b+.c -->
+    <div class="position">
+        <div class="a">aa</div>
+        <div class="b">bb</div>
+        <div class="c">cc</div>
+    </div>
+
+    <div class="float">
+        <div class="a">aa</div>
+        <div class="b">bb</div>
+        <div class="c">cc</div>
+    </div>
+
+    <div class="display"><!-- 띄어쓰기로 입력받음 -->
+        <div class="a">aa</div>
+        <div class="b">bb</div>
+        <div class="c">cc</div>
+    </div>
+
+</body>
+
+</html>
+  ---------------------------------------------
+  /* div {
+    text-align: center;
+} */
+
+.position div {
+    width: 100px;
+    height: 100px;
+}
+
+.float div {
+    width: 100px;
+    height: 100px;
+}
+
+.display div {
+    width: 100px;
+    height: 100px;
+}
+
+.a {
+    background-color: yellow;
+}
+
+.b {
+    background-color: green;
+}
+
+.c {
+    background-color: blue;
+}
+
+/* position 주기 */
+.position {
+    position: relative;
+    height: 100px;
+}
+
+.position .a {
+    position: absolute;
+    left: 0;
+}
+
+.position .b {
+    position: absolute;
+    left: 100px;
+}
+
+.position .c {
+    position: absolute;
+    left: 200px;
+}
+
+/* float 주기 */
+
+.float {
+    height: 100px;
+}
+
+.float .a {
+    float: left;
+}
+
+.float .b {
+    float: left;
+}
+
+.float .c {
+    float: left;
+}
+
+/* display 주기 */
+
+.display .a {
+    display: inline-block;
+}
+
+.display .b {
+    display: inline-block;
+}
+
+.display .c {
+    display: inline-block;
+}
+  
