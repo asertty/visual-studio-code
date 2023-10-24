@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // var 연택 = "<h1> 연택쌤 </h1>"
+
+        // var 연택;
+
+        // if (prompt("입력") == "1") {
+        //     연택 = "<h1> 연택쌤 </h1>"
+        // } else {
+        //     연택 = "<h3> 연택쌤 </h3>"
+        // }
+
+        // document.write(연택);
+
+        // var a = true;
+        // var b = false;
+        // var c = 10 > 5;  //true
+        // var d = Boolean(null);  //false
+
+        // document.write(a, "<br>");
+        // document.write(b, "<br>");
+        // document.write(c, "<br>");
+        // document.write(d, "<br>");
+        /* , 또는 + 사용 */
+
+        var num1 = prompt(num1)  // var num1 = 15;
+        var num2 = prompt(num2)  // var num2 = 2;
+        var resuit;
+
+        resuit = Number(num1) + Number(num2);
+        document.write(resuit, "<br>");  // 17
+
+        resuit = num1 - num2;
+        document.write(resuit, "<br>");  // 13
+
+        resuit = num1 * num2;
+        document.write(resuit, "<br>");  // 30
+
+        resuit = num1 / num2;
+        document.write(resuit, "<br>");  // 7.5
+
+        resuit = num1 % num2;
+        document.write(resuit, "<br>");  // 1
+
+
+
+
+    </script>
+
+</body>
+
+</html>
