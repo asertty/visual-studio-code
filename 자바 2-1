@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var 문장;
+
+        var 키 = prompt("키 입력")
+        var 체중 = prompt("체중 입력")
+
+        var bmi = 체중 / (키 * 키)
+
+        if (bmi < 18.5) {
+            문장 = "<h1>저체중</h1>"
+        }
+        else if (bmi <= 24.5) {
+            문장 = "<h1>정상</h1>"
+        }
+        else if (bmi <= 29.9) {
+            문장 = "<h1>과체중</h1>"
+        }
+        else if (bmi >= 30) {
+            문장 = "<h1>비만</h1>"
+        }
+        document.write("<h1>bmi : " + 체중 + "</h1>" + "<br>");
+        document.write("<h1>bmi : " + 키 + "</h1>" + "<br>");
+        document.write("<h1>bmi : " + bmi + "</h1>" + "<br>");
+        document.write(문장);
+    </script>
+
+</body>
+
+</html>
+
