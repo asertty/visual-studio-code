@@ -49,15 +49,41 @@
 
 
 
-        var i = 20;
-        while (i >= 10) {
-            if (i % 2 == 0) {
-                document.write("<p style = 'color:blue'>" + i + "</p>");
-            } else {
-                document.write("<p style = 'color:red'>" + i + "</p>");
+        // var i = 20;
+        // while (i >= 10) {
+        //     if (i % 2 == 0) {
+        //         document.write("<p style = 'color:blue'>" + i + "</p>");
+        //     } else {
+        //         document.write("<p style = 'color:red'>" + i + "</p>");
+        //     }
+        //     i--;
+        // }
+
+        /*   var str = "<table border = '1'>";
+          str += "<tr>";
+          str += "<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>";
+          str += "</tr>";
+          str += "</table>";
+          document.write(str); */
+
+        var num = 1;
+
+        document.write("<table border = '1'>");
+
+        for (var j = 0; j < 5; j++) {
+            document.write("<tr>");
+
+            for (var i = 0; i < 5; i++) {
+                document.write("<td>" + (num++) + "</td>");
+                /* <th></th> = 진하게 하고 가운데 정렬 */
+
             }
-            i--;
+            document.write("<tr>");
         }
+        document.write("</table>");
+
+
+
     </script>
 
 </body>
