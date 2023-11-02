@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Document</title>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        let kor = 90;
+        let eng = 88;
+        let math = 99;
+        let DB = 100;
+
+        // document.write("국어(kor):" + kor + "<br>");
+        // document.write("영어(eng):" + eng + "<br>");
+        // document.write("수학(math):" + math + "<br>");
+        // document.write("데이터베이스(DB):" + DB + "<br>");
+        // document.write("평균 : " + (kor + eng + math + DB) / 4 + "점");
+
+        // document.write(`국어(kor): ${kor} <br>`);
+        // document.write(`영어(eng): ${eng} <br>`);
+        // document.write(`수학(math): ${math} <br>`);
+        // document.write(`데이터베이스(DB): ${DB} <br>`);
+        // document.write(`평균: ${kor + eng + math + DB} 점`);
+
+        /*  let exam = [99, 99, 99, 99];
+         //          [0] [1] [2] [3] */
+
+
+        /*  let exam2 = {
+             "kor": 99,
+             "eng": 100,
+             "math": 99,
+             "DB": 80
+ 
+         }
+ 
+         document.write(`국어(kor): ${exam2["kor"]} <br>`);
+         document.write(`영어(eng): ${exam2["eng"]} <br>`);
+         document.write(`수학(math): ${exam2["math"]} <br>`);
+         document.write(`데이터베이스(DB): ${exam2["DB"]} <br>`);
+         document.write(`평균: ${exam2["kor"] + exam2["eng"] + exam2["math"] + exam2["DB"] / 4} 점`);
+      // document.write(`평균: ${exam[0] + exam[1] + exam[2] + exam[3] / exam.length} 점`); */
+
+        let exam = [99, 99, 88, 77];
+
+        // for (let i = 0; i < exam.length; i++) {
+        //     document.write(`${i} : ${exam[i]} <br>`)
+        //}
+
+
+        let exam2 = {
+            "kor": 99,
+            "eng": 100,
+            "math": 99,
+            "DB": 80
+        }
+
+        for (let i in exam2) {
+            if (i == "DB") break ;
+            document.write(`${i} : ${exam2[i]} <br>`)
+        }
+
+    </script>
+
+</body>
+
+</html>
