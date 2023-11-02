@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<title>Document</title>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h2> 구구단 출력하기(1~9단) </h2>
+
+    <script>
+
+        for (var i = 1; i < 10; i++) {
+            for (var j = 1; j < 10; j++) {
+                document.write(`${i} * ${j} = ${i * j}<br>`);
+            }
+            document.write("<br>")
+        }
+
+    </script>
+
+</body>
+
+</html>
