@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>배열(Array)</h2>
+
+    <script>
+        //성적 
+        let ary = [100, 99, 98, 97];
+
+        document.write("국어 :" + ary[0] + "<br>");
+        document.write("수학 :" + ary[1] + "<br>");
+        document.write("역사 :" + ary[2] + "<br>");
+        document.write("과학 :" + ary[3] + "<br>");
+    </script>
+
+    <h2>개체 리터럴(object Literal)</h2>
+
+    <script>
+        let ol = {
+            '국어': 100,
+            '수학': 99,
+            '역사': 98,
+            '과학': 97
+        };
+
+        // document.write(`국어 : ${ol['국어']}<br>`);
+        // document.write(`수학 : ${ol['수학']}<br>`);
+        // document.write(`역사 : ${ol['역사']}<br>`);
+        // document.write(`과학 : ${ol['과학']}<br>`);
+
+        for (let i in ol) {
+
+            document.write(`${i}: ${ol[i]}<br>`);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
