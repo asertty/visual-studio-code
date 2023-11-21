@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>함수(function)</h2>
+    <script>
+        // 개체(obiect): 사물
+
+        // 필드(변수) -> num = 10;
+        // 메소드(함수) -> f(){  };
+
+        // var - 재선언이 가능
+        //let - 재선언이 불가능, 값을 바꾸는 건 가능
+        //const - 재선이 불가능, 값을 바꾸는 것도 불가능
+
+        // const f = function () {
+        //     alert("함수를 호출하셨네요")
+        //     }
+
+        const f = function 함수(name) {
+            alert(name + "님, 함수를 호출하셨네요")
+        }
+
+    </script>
+
+    <!-- <input type="button" value="호출" onclick="f()"> -->
+    <!-- 값 호출 -->
+    <input type="button" value="호출" onclick="f('aa')">
+
+    <h2>개체(object)</h2>
+
+    <script>
+        const person = {
+            name: 'aa',
+            age: 16,
+            isAdult: false,
+
+            f: function () {
+                alert(person.name + "입니다.")
+            }
+        }
+    </script>
+
+</body>
+
+</html>
