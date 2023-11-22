@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>표준 내장 개체(Stangard Built-in Object)</title>
+</head>
+
+<body>
+    <!-- <script>
+
+        let a = "안녕하세요";
+
+        a.replace("하세요", "하십니까");
+
+        // alert(a);
+
+        let b = 18.124907;
+        document.write(Math.round(b) + "<br>");
+
+
+        let rd = Math.round(Math.random() * 10);
+        document.write(rd);
+
+        // open(https://WWW.naver.com , "이름", width: 100, heigth:100) 아마도... 아닌가,,?
+    </script>  -->
+
+    <h2>DOM 개체 - get 메서드</h2>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <p id="text">
+        <span style="color: red;">Lorem ipsum</span>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Odit beatae vero eos praesentium ipsum animi, laborum rem,
+        repellendus, quasi maxime totam non.
+        Totam ab earum, minima dolor aspernatur itaque accusamus.
+    </p>
+    <!-- css가 아닌 F12 키 누른 창에서도 설정 가능 -->
+
+</body>
+
+</html>
