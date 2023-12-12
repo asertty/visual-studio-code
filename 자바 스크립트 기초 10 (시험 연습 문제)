@@ -64,10 +64,13 @@
 </head>
 
 <body>
+    <!-- header.heaader  약어-->
     <header id="header">
         <div>
             <img alt="main" src="img2.jpg">
         </div>
+
+        <!-- ul.menu>li*6>a  약어-->
         <ul id="menu">
             <li><a href="#">수목원 소개 |</a></li>
             <li><a href="#">방문안내 |</a></li>
@@ -77,6 +80,8 @@
             <li><a href="#">공지사항</a></li>
         </ul>
     </header>
+
+    <!-- section.main  약어-->
     <section id="main">
         <h1>+ 방문안내</h1>
         <h2>1. 이용요금</h2>
