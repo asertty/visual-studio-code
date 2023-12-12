@@ -1,0 +1,49 @@
+.heaber {
+    width: 750px;
+}
+
+.menu li {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 750px;
+    clear: both;
+}
+
+.main h1 {
+    background-color: skyblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.main table{
+    margin-left: 20px;
+}
+
+.main table,
+.main td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+traffic li {
+    list-style: url(img1.png);
+}
+
+.main p{
+    width: 710px;
+    border: 1px solid #000000;
+     margin: 20px;
+    padding: 10px;
+}
